@@ -5,17 +5,17 @@ Description                    | Shortcut
 Show Key Asist                 | Ctrl+Shift+L
 Move Lines Up                  | Alt+Up
 Move Lines Down                | Alt+Down
-Duplicate Lines Up             | Ctrl+Alt+Up
-Duplicate Lines Down           | Ctrl+Alt+Down
-Insert line below current line | Shift+Enter
-Insert line above current line | Ctrl+Shift+Enter
+Copy Lines Up                  | Ctrl+Alt+Up
+Copy Lines Down                | Ctrl+Alt+Down
+Insert Line Below              | Shift+Enter
+Insert Line Above              | Ctrl+Shift+Enter
 Join Lines                     | Ctrl+Alt+J
 Delete Line                    | Ctrl+D
 Delete to end of line          | Ctrl+Shift+Delete
 Delete next word               | Ctrl+Delete
 Delete previous word           | Ctrl+Backspace
-Select Line End                | Shift+End
-Select Line Start              | Shift+Home
+Select to Line End             | Shift+End
+Select to Line Start           | Shift+Home
 Select Next Word               | Shift+Ctrl+Right
 Select Previous Word           | Shift+Ctrl+Left
 Go to Line                     | Ctrl+L
@@ -31,7 +31,7 @@ Toggle Block Selection         | Alt+Shift+A
 Toggle Split Editor Horizontal | Ctrl+_
 Toggle Split Editor Vertial    | Ctrl+{
 Quick Switch Editor            | Ctrl+E
-Content Assist                 | Alt+/
+Word Completion                | Alt+/
 Context Information            | Alt+Shift+?
 Format                         | Ctrl+Shift+F 
 Organize Use Statements        | Ctrl+Shift+O
