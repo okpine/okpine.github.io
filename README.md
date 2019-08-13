@@ -1,8 +1,9 @@
 ## IDE 快捷键
  
 
+## Windows 10 快捷键
 
-Windows 10 快捷键                                                                                  |  
+Press this key                                  | To do this
 ----------------------------------------------- | ----------------------------------------------------------
 Windows logo key  + A                           | Open Action center.
 Windows logo key  + I                           | Open Settings.
@@ -14,6 +15,10 @@ Windows logo key  + Tab                         | Open Task view.
 Windows logo key  + Ctrl + Left arrow           | Switch between virtual desktops you’ve created on the right.
 Windows logo key  + Ctrl + Right arrow          | Switch between virtual desktops you’ve created on the left.
 
+
+| foo | bar |
+| --- | --- |
+| baz | bim |
 
 ## Git使用多个ssh key
 SourceTree软件、Git For Windows命令行等可以借此同时使用github和gitbucket。
