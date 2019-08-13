@@ -1,5 +1,4 @@
-# notes
-我的笔记
+# 我的笔记
 
 ## Git使用多个ssh key
 SourceTree软件、Git For Windows命令行等可以借此同时使用github和gitbucket。
