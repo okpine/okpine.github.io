@@ -2,7 +2,7 @@
  
 
 
-Windows 10 快捷键 
+Windows 10 快捷键                                                                                  |  
 ----------------------------------------------- | ----------------------------------------------------------
 Windows logo key  + A                           | Open Action center.
 Windows logo key  + I                           | Open Settings.
