@@ -66,3 +66,50 @@ HostName github.com
 User another-username
 IdentityFile E:/ssh-keys/github/id_rsa
 ```
+
+## 生成自签名HTTPS证书
+
+1、创建一个配置文件req.conf，如下内容，运行命令中使用这个文件。
+
+```
+[req]
+distinguished_name = req_distinguished_name
+x509_extensions = v3_req
+prompt = no
+
+[req_distinguished_name]
+C = CN
+ST = my-state
+L = my-city
+O = my-company
+OU = my-unit
+CN = www.example.com
+
+[v3_req]
+subjectKeyIdentifier = hash
+authorityKeyIdentifier = keyid:always,issuer
+basicConstraints = CA:true
+keyUsage = nonRepudiation, digitalSignature, keyEncipherment, dataEncipherment, keyCertSign, cRLSign
+subjectAltName = @alt_names
+
+[alt_names]
+DNS.1 = example.com
+DNS.2 = www.example.com
+DNS.3 = cdn.example.com
+```
+
+2、运行以下命令生成证书：
+
+```
+openssl req -x509 -nodes -days 365 -newkey rsa:2048 -keyout example.pem -out example.crt -config req.conf -extensions 'v3_req'
+```
+
+3、给计算机安装证书
+
+双击证书文件，或运行`certmgr.msc`打开证书管理器。
+
+要安装到**受信任的根证书颁发机构**, 要以管理员身份运行。
+
+4、给nginx或apache等web服务器修改配置文件使用证书，略过不提。
+
+
