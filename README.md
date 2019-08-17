@@ -113,3 +113,22 @@ openssl req -x509 -nodes -days 365 -newkey rsa:2048 -keyout example.pem -out exa
 4、给nginx或apache等web服务器修改配置文件使用证书，略过不提。
 
 
+## Windows 10 ISO下载
+
+镜像文件直接从微软官网下载的方法，就是修改User Agent，让页面显示出下载选项。
+
+非Windows用户可以直接打开网址，跳过后续步骤。
+
+1、
+打开[下载 Windows 10 光盘映像（ISO 文件）](https://www.microsoft.com/zh-cn/software-download/windows10ISO)
+
+2、打开开发者工具，快捷键是 `F12` 或者 `Ctrl+Shift+I`
+
+3、修改 User Agent
+
+开发者工具右上角菜单，More tools, Network conditions
+
+去除勾选Select automaticly，在下拉框里选择任意一个，但就是不能选择`Chrome-Windows`
+
+4、刷新网页，就可以选择版本、选择语言下载了
+
