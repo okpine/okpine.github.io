@@ -1,6 +1,6 @@
 # python 3 笔记
 
-## 下载和安装 [Python下载地址](https://www.python.org/downloads/)
+## 下载和安装 [Python](https://www.python.org/downloads/)
 
 点击最新版本，在Files表格里面找到`Windows x86-64 embeddable zip file`，点击下载并解压。
 
