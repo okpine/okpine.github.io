@@ -99,6 +99,19 @@ openssl req -x509 -nodes -days 365 -newkey rsa:2048 -keyout example.pem -out exa
 
 ## Windows 10 ISO下载
 
+文件名：Win10_1903_V1_Chinese(Simplified)_x64.iso
+
+选择要安装的操作系统
+
+操作系统                 | 体系结构 | 修改时间
+-----------------------------------------------
+Windows 10 家庭版        | x64      | 2019/4/1
+Windows 10 家庭单语言版  | x64      | 2019/4/1
+Windows 10 教育版        | x64      | 2019/4/1
+Windows 10 教育版        | x64      | 2019/4/1
+Windows 10 专业教育版    | x64      | 2019/4/1
+Windows 10 专业工作站版  | x64      | 2019/4/1
+
 镜像文件直接从微软官网下载的方法，就是修改User Agent，让页面显示出下载选项。
 
 非Windows用户可以直接打开网址，跳过后续步骤。
