@@ -108,7 +108,7 @@ openssl req -x509 -nodes -days 365 -newkey rsa:2048 -keyout example.pem -out exa
 Windows 10 家庭版        | x64      | 2019/4/1
 Windows 10 家庭单语言版  | x64      | 2019/4/1
 Windows 10 教育版        | x64      | 2019/4/1
-Windows 10 教育版        | x64      | 2019/4/1
+Windows 10 专业版        | x64      | 2019/4/1
 Windows 10 专业教育版    | x64      | 2019/4/1
 Windows 10 专业工作站版  | x64      | 2019/4/1
 
