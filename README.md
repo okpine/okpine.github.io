@@ -20,7 +20,6 @@ Select Next Word               | Shift+Ctrl+Right
 Select Previous Word           | Shift+Ctrl+Left
 Go to Line                     | Ctrl+L
 Go to Symbol in File           | Ctrl+O
-Go to Symbol in Workspace      | Ctrl+Shift+T
 Go to Matching Bracket         | Ctrl+Shift+P
 Go to Matching Tag             | Ctrl+Shift+>
 Incremental Find               | Ctrl+J
@@ -35,6 +34,10 @@ Word Completion                | Alt+/
 Context Information            | Alt+Shift+?
 Format                         | Ctrl+Shift+F 
 Organize Use Statements        | Ctrl+Shift+O
+Open Type                      | Ctrl+Shift+T
+Open Method                    | Ctrl+Shift+M
+Open Resource                  | Ctrl+Shift+R
+
 
 ## Windows 10 快捷键
 
@@ -49,7 +52,7 @@ Windows logo key  + period (.) or semicolon (;) | Open emoji panel.
 Windows logo key  + Tab                         | Open Task view.
 Windows logo key  + Ctrl + Left arrow           | Switch between virtual desktops you’ve created on the right.
 Windows logo key  + Ctrl + Right arrow          | Switch between virtual desktops you’ve created on the left.
-
+Alt + F7										| Clear History
 
 ## 生成自签名HTTPS证书
 
@@ -125,7 +128,7 @@ Windows 10 专业工作站版  | x64      | 2019/4/1
 
 开发者工具右上角菜单，More tools, Network conditions
 
-去除勾选Select automaticly，在下拉框里选择任意一个，但就是不能选择`Chrome-Windows`
+去除勾选Select automaticly，在下拉框里选择任意一个，除了`Chrome-Windows`。
 
 4、刷新网页，就可以选择版本、选择语言下载了
 
