@@ -1,0 +1,381 @@
+{
+	"context": "D:\\Projects\\js-project",
+	"mode": "production",
+	"entry": {
+		"/dist/index": [
+			"D:\\Projects\\js-project\\src\\index.js"
+		]
+	},
+	"output": {
+		"path": "D:\\Projects\\js-project",
+		"filename": "[name].js",
+		"chunkFilename": "[name].js",
+		"publicPath": "/"
+	},
+	"module": {
+		"rules": [
+			{
+				"test": {
+					
+				},
+				"loaders": [
+					"html-loader"
+				]
+			},
+			{
+				"test": {
+					
+				},
+				"loaders": [
+					{
+						"loader": "file-loader",
+						"options": {
+							"publicPath": "/"
+						}
+					},
+					{
+						"loader": "img-loader",
+						"options": {
+							"enabled": true,
+							"gifsicle": {
+								
+							},
+							"mozjpeg": {
+								
+							},
+							"optipng": {
+								
+							},
+							"svgo": {
+								
+							}
+						}
+					}
+				]
+			},
+			{
+				"test": {
+					
+				},
+				"loader": "file-loader",
+				"options": {
+					"publicPath": "/"
+				}
+			},
+			{
+				"test": {
+					
+				},
+				"loader": "file-loader",
+				"options": {
+					"name": "[name].[ext]?[hash]",
+					"publicPath": "/"
+				}
+			},
+			{
+				"test": {
+					
+				},
+				"exclude": {
+					
+				},
+				"use": [
+					{
+						"loader": "babel-loader",
+						"options": {
+							"presets": [
+								[
+									"D:\\Projects\\js-project\\node_modules\\@babel\\preset-env\\lib\\index.js",
+									{
+										"modules": false,
+										"forceAllTransforms": true
+									}
+								]
+							],
+							"plugins": [
+								"D:\\Projects\\js-project\\node_modules\\@babel\\plugin-syntax-dynamic-import\\lib\\index.js",
+								"D:\\Projects\\js-project\\node_modules\\@babel\\plugin-proposal-object-rest-spread\\lib\\index.js",
+								[
+									"D:\\Projects\\js-project\\node_modules\\@babel\\plugin-transform-runtime\\lib\\index.js",
+									{
+										"helpers": false
+									}
+								]
+							],
+							"cacheDirectory": true
+						}
+					}
+				]
+			},
+			{
+				"test": {
+					
+				},
+				"loaders": [
+					"style-loader",
+					{
+						"loader": "css-loader",
+						"options": {
+							"importLoaders": 1
+						}
+					},
+					{
+						"loader": "postcss-loader",
+						"options": {
+							"plugins": []
+						}
+					}
+				]
+			},
+			{
+				"test": {
+					
+				},
+				"exclude": [],
+				"loaders": [
+					"style-loader",
+					"css-loader",
+					{
+						"loader": "postcss-loader",
+						"options": {
+							"plugins": []
+						}
+					},
+					{
+						"loader": "sass-loader",
+						"options": {
+							"precision": 8,
+							"outputStyle": "expanded"
+						}
+					}
+				]
+			},
+			{
+				"test": {
+					
+				},
+				"exclude": [],
+				"loaders": [
+					"style-loader",
+					"css-loader",
+					{
+						"loader": "postcss-loader",
+						"options": {
+							"plugins": []
+						}
+					},
+					{
+						"loader": "sass-loader",
+						"options": {
+							"precision": 8,
+							"outputStyle": "expanded",
+							"indentedSyntax": true
+						}
+					}
+				]
+			},
+			{
+				"test": {
+					
+				},
+				"exclude": [],
+				"loaders": [
+					"style-loader",
+					"css-loader",
+					{
+						"loader": "postcss-loader",
+						"options": {
+							"plugins": []
+						}
+					},
+					"less-loader"
+				]
+			},
+			{
+				"test": {
+					
+				},
+				"exclude": [],
+				"loaders": [
+					"style-loader",
+					"css-loader",
+					{
+						"loader": "postcss-loader",
+						"options": {
+							"plugins": []
+						}
+					},
+					"stylus-loader"
+				]
+			},
+			{
+				"test": {
+					
+				},
+				"use": [
+					{
+						"loader": "vue-loader",
+						"options": {
+							
+						}
+					}
+				]
+			}
+		]
+	},
+	"plugins": [
+		{
+			"compilationSuccessInfo": {
+				
+			},
+			"shouldClearConsole": true,
+			"formatters": [
+				null,
+				null,
+				null
+			],
+			"transformers": [
+				null,
+				null,
+				null
+			]
+		},
+		{
+			"definitions": {
+				"process.env.NODE_ENV": "\"production\""
+			}
+		},
+		{
+			
+		},
+		{
+			
+		},
+		{
+			
+		},
+		{
+			"options": {
+				"title": "Laravel Mix",
+				"alwaysNotify": true,
+				"timeout": 2,
+				"contentImage": "D:\\Projects\\js-project\\node_modules\\laravel-mix\\icons\\laravel.png"
+			},
+			"lastBuildSucceeded": false,
+			"isFirstBuild": true
+		},
+		{
+			
+		}
+	],
+	"stats": {
+		"hash": false,
+		"version": false,
+		"timings": false,
+		"children": false,
+		"errorDetails": false,
+		"entrypoints": false,
+		"performance": true,
+		"chunks": false,
+		"modules": false,
+		"reasons": false,
+		"source": false,
+		"publicPath": false,
+		"builtAt": false
+	},
+	"performance": {
+		"hints": false
+	},
+	"optimization": {
+		"minimizer": [
+			{
+				"options": {
+					"test": {
+						
+					},
+					"extractComments": false,
+					"sourceMap": true,
+					"cache": true,
+					"parallel": true,
+					"terserOptions": {
+						"output": {
+							"comments": false
+						},
+						"compress": {
+							"warnings": false
+						}
+					}
+				}
+			},
+			{
+				"pluginDescriptor": {
+					"name": "OptimizeCssAssetsWebpackPlugin"
+				},
+				"options": {
+					"assetProcessors": [
+						{
+							"phase": "compilation.optimize-chunk-assets",
+							"regExp": {
+								
+							}
+						}
+					],
+					"assetNameRegExp": {
+						
+					},
+					"cssProcessorOptions": {
+						
+					},
+					"cssProcessorPluginOptions": {
+						"preset": [
+							"default",
+							{
+								
+							}
+						]
+					}
+				},
+				"phaseAssetProcessors": {
+					"compilation.optimize-chunk-assets": [
+						{
+							"phase": "compilation.optimize-chunk-assets",
+							"regExp": {
+								
+							}
+						}
+					],
+					"compilation.optimize-assets": [],
+					"emit": []
+				},
+				"deleteAssetsMap": {
+					
+				}
+			}
+		]
+	},
+	"devtool": false,
+	"devServer": {
+		"headers": {
+			"Access-Control-Allow-Origin": "*"
+		},
+		"contentBase": "D:\\Projects\\js-project",
+		"historyApiFallback": true,
+		"noInfo": true,
+		"compress": true,
+		"quiet": true
+	},
+	"resolve": {
+		"extensions": [
+			"*",
+			".wasm",
+			".mjs",
+			".js",
+			".jsx",
+			".json",
+			".vue"
+		],
+		"alias": {
+			"vue$": "vue/dist/vue.common.js"
+		}
+	}
+}
