@@ -1,0 +1,13 @@
+th,td{
+    position: relative;
+}
+th{
+	width: 175px;
+	z-index: 1;
+	background: #fff;
+}
+td{
+	width: 90px;
+}
+
+
