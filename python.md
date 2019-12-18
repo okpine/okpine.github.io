@@ -1,3 +1,8 @@
+---
+layout: default
+title: python 3 笔记 -- okpine
+---
+
 # python 3 笔记
 
 ## 下载和安装 [Python](https://www.python.org/downloads/)
