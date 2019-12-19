@@ -7,7 +7,7 @@ layouts_dir         : ./theme/_layouts
 data_dir            : ./theme/_data
 includes_dir        : ./theme/_includes
 sass:
-  sass_dir: _sass
+  sass_dir: ./theme/_scss
 collections:
   posts:
     output          : true
@@ -58,7 +58,7 @@ defaults            :
       path: "" # an empty string here means all files in the project
     values:
       layout: "default"
-      author: "王靖"
+      author: "wangjing<uni.wangjing@gmail.com>"
 
 liquid:
   error_mode        : warn
