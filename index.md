@@ -1,5 +1,6 @@
 ---
-title: python 3 笔记 -- okpine
+layout: index
+title: okpine首页
 ---
 
 # Welcome
