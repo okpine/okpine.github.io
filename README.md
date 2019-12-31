@@ -1,3 +1,8 @@
+---
+layout: default
+title: Eclipse IDE 快捷键
+---
+
 ## Eclipse IDE 快捷键
 
 Description                    | Shortcut
@@ -32,7 +37,7 @@ Toggle Split Editor Vertial    | Ctrl+{
 Quick Switch Editor            | Ctrl+E
 Word Completion                | Alt+/
 Context Information            | Alt+Shift+?
-Format                         | Ctrl+Shift+F 
+Format                         | Ctrl+Shift+F
 Organize Use Statements        | Ctrl+Shift+O
 Open Type                      | Ctrl+Shift+T
 Open Method                    | Ctrl+Shift+M
