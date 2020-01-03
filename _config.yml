@@ -4,7 +4,7 @@ description: welcome
 encoding: "utf-8"
 timezone: "Asia/Shanghai"
 lang: "zh-CN"
-url: "https://okpine.com"
+url: "https://www.okpine.com"
 
 defaults            :
   -
