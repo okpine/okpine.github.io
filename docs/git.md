@@ -1,5 +1,5 @@
 ---
-url: git
+permalink: /git
 ---
 # git
 
