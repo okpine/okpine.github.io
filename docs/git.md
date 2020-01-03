@@ -1,3 +1,6 @@
+---
+url: git
+---
 # git
 
 ## git config
