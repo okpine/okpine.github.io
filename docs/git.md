@@ -20,3 +20,8 @@ git clone // Clone a repository into a new directory
 git clone --depth 1 reponame.git // Clone repository without history
 git clone -b mybranch --single-branch git://sub.domain.com/repo.git // Clone a single branch
 ```
+
+## make chagnes
+```shell
+git add // Add file contents to the index
+```
